@@ -1,20 +1,20 @@
-
 /* ToDoList
 */
 window.onload = function() {
-        //variables
+        // declare variables
         let form = document.getElementById("form");
-        let form = document.getElementById("input");
-        let form = document.getElementById("btn");
-        let form = document.getElementById("list");
-        let form = document.getElementById("btnClear");
+        let input = document.getElementById("input");
+        let btn = document.getElementById("btn");
+        let list = document.getElementById("list");
+        let btnClear = document.getElementById("btnClear");
         let id = 1;
 
         let liItem = "";
         let toDoList = [];
 
+        // add event listeners for the form buttons
         btn.addEventListener("click", addTodoItem);
         list.addEventListener("click", boxChecked);
-        btnClear.addEventListener("click", 
+        btnClear.addEventListener("click", clearList);
 
 }
