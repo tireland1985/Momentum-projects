@@ -1,6 +1,6 @@
 /* ToDoList
 */
-window.onload = function() {
+window.onload = function () {
         // declare variables
         let form = document.getElementById("form");
         let input = document.getElementById("input");
@@ -9,6 +9,7 @@ window.onload = function() {
         let btnClear = document.getElementById("btnClear");
         let id = 1;
 
+        //listItem = {item: "todo item", checked: close}
         let liItem = "";
         let toDoList = [];
 
