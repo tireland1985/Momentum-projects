@@ -1,3 +1,3 @@
-# Momentum-projects
+# ToDoList App
 CSY1018 Web Development
-Class work: momentum clone
+Class work: momentum-style todo list
