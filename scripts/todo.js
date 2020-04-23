@@ -94,7 +94,9 @@ window.onload = function () {
                     id++;
                 });
             }
-        
+            // displayList wasn't called.. without this call the list disappears on page refresh
+            displayList();
+            
             //clear list event listener
             function clearList() {
                 todoList = [];
@@ -112,4 +114,5 @@ window.onload = function () {
                     }
                     return true;
             }
+        
         }
