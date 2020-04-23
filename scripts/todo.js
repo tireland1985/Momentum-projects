@@ -96,7 +96,7 @@ window.onload = function () {
             }
             // displayList wasn't called.. without this call the list disappears on page refresh
             displayList();
-            
+
             //clear list event listener
             function clearList() {
                 todoList = [];
@@ -105,6 +105,7 @@ window.onload = function () {
                 btnClr.style.display = "none";
                 list.style.borderTop = "";
             }
+            // https://stackoverflow.com/questions/155188/trigger-a-button-click-with-javascript-on-the-enter-key-in-a-text-box
             function KeyDown(e) {
                     e = e || window.event;
                     if (e.keyCode == 13){
