@@ -10,7 +10,7 @@ Uncaught TypeError: Cannot read property 'forEach' of null<br />
     at window.onload (todo.js:96)<br /> <br />
 after item submitted:
 Uncaught TypeError: Cannot read property 'push' of null<br />
-    at HTMLButtonElement.addTodoItem (todo.js:51)<br />
+    at HTMLButtonElement.addTodoItem (todo.js:51)<br /><br />
 after submit via the enter key:<br />
 Uncaught TypeError: Cannot read property 'push' of null<br />
     at addTodoItem (todo.js:51)<br />
