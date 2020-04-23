@@ -93,7 +93,10 @@ window.onload = function () {
                 id++;
             });
         }
-        displayList();
+        if(localStorage.length >=1){
+            displayList();
+        }
+        
         //clear list event listener
         function clearList() {
             todoList = [];
