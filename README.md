@@ -18,4 +18,5 @@ Uncaught TypeError: Cannot read property 'push' of null<br />
     at HTMLInputElement.keyDown (todo.js:110)
 <br />
 <br />
-Solution to the above: write an if statement to check if localStorage contained data. If it does then call displayList()
+Solution to the above: write an if statement to check if localStorage contained data. If it does then call displayList(). <br />
+Enter key: keyCodes, prevent the default action and call addTodoItem
