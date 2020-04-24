@@ -1,8 +1,9 @@
 # ToDoList App
-CSY1018 Web Development
-Class work: momentum-style todo list
-This currently has issues: On page refresh, the list seems to get cleared.. Enter works.. (ish..)
-
+## CSY1018 Web Development
+### Class work: momentum-style todo list
+All known issues now resolved. <br />
+List items can be added by either clicking submit or via the 'Enter' key. <br />
+On page refresh/ load, any pre-existing list items are now displayed. <br />
 Errors:<br />
 page load/refresh:<br />
 Uncaught TypeError: Cannot read property 'forEach' of null<br />
