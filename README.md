@@ -1,8 +1,8 @@
 # ToDoList App
 ## CSY1018 Web Development
 ### Class work: momentum-style todo list
-[Demo](https://tireland1985.github.io/todo-list)
-All known issues now resolved. <br />
+[Demo](https://tireland1985.github.io/todo-list)<br />
+All known issues seem resolved in VSCode Live Server. <br />
 List items can be added by either clicking submit or via the 'Enter' key. <br />
 On page refresh/ load, any pre-existing list items are now displayed. <br />
 Errors:<br />
